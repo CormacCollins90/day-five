@@ -1,0 +1,33 @@
+   body {
+            background-color: lightgrey;
+        }
+
+        .div1 {
+            width: 500px;
+        }
+
+        .text {
+            position: absolute;
+            width: 1000px;
+            height: 100px;
+            font-family: 'Courgette', cursive;
+            font-size:24px;
+            color: skyblue;
+            top: 280px;
+            right: 0;
+            left: 50px;
+            opacity: 0.6;
+
+        }
+  
+
+        .img {
+
+            position: relative;
+            height: 300px;
+        }
+        
+        .text:hover {
+            transform: rotate(25deg);
+            transition: 25s;
+        }
